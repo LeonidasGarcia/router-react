@@ -11,7 +11,7 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Componente1 />} />
+        <Route exact path='/' element={<Componente1 />} />
         <Route path='/2' element={<Componente2 />} />
         <Route path='/3' element={<Componente3 />} />
       </Routes>
